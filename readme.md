@@ -20,3 +20,13 @@ node --inspect-brk node_modules/.bin/jest --runInBand
 ```
 to inspect in chrome:
 chrome://inspect/
+
+
+webpack
+resolve: {
+    modules: [
+      path.resolve('./lib'),
+      path.resolve('./node_modules')
+    ]
+}
+tells webpack to look in the particular dirs when required is called.
