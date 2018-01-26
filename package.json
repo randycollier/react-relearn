@@ -7,12 +7,19 @@
     "webpack": "webpack -wd",
     "dev": "NODE_PATH=./lib pm2 start -f lib/server.js --name express --watch --interpreter babel-node",
     "test": "jest --watch -i --runInBand",
+    "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files"
   },
   "babel": {
     "presets": [
       "react",
-      ["env", {"targets": {"node": "current" } }],
+      [
+        "env", {
+          "targets": {
+            "node": "current"
+          }
+        }    
+      ],
       "stage-2"
     ]
   },
