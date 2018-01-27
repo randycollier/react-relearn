@@ -1,4 +1,6 @@
 /node_modules
+public/style.js
+public/style.css
 public/bundle.js
 public/vendor.js
 public/app.js
