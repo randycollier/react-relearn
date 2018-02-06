@@ -1,7 +1,5 @@
 /node_modules
-public/bundle.js
-public/vendor.js
-public/app.js
+/public
 /build
 .DS_Store
 *.log
