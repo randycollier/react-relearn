@@ -4,6 +4,7 @@ public/style.css
 public/bundle.js
 public/vendor.js
 public/app.js
+ecosystem.config.js
 /build
 .DS_Store
 *.log

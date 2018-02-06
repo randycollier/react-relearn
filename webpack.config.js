@@ -17,6 +17,7 @@ const config = {
       'babel-polyfill',
       'react',
       'react-dom',
+      'react-router-dom',
       'prop-types',
       'axios'
     ],

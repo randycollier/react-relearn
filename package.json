@@ -6,6 +6,7 @@
   "scripts": {
     "webpack": "webpack -wd",
     "dev": "NODE_PATH=./lib pm2 start -f lib/server.js --name express --watch --interpreter babel-node",
+    "deb": "NODE_PATH=./lib node_modules/.bin/babel-node lib/server.js --inspect-brk",
     "test": "jest --watch -i --runInBand",
     "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files",
@@ -48,11 +49,20 @@
     "bootstrap": "4.0.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "history": "^4.7.2",
     "jquery": "^3.3.1",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
     "pm2": "^2.9.1",
-    "popper": "^1.0.1",
+    "popper.js": "^1.12.9",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "redux-undo": "^0.6.1",
     "webpack": "^3.10.0"
   }
 }
