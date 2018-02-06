@@ -1,9 +1,5 @@
 /node_modules
-public/style.js
-public/style.css
-public/bundle.js
-public/vendor.js
-public/app.js
+/public
 ecosystem.config.js
 /build
 .DS_Store
