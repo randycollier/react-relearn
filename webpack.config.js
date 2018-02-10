@@ -19,7 +19,14 @@ const config = {
       'react-dom',
       'react-router-dom',
       'prop-types',
-      'axios'
+      'axios',
+      'redux-thunk',
+      'styled-components'
+
+
+
+
+
     ],
     style: ['./lib/style/app.scss'],
     app: ['./lib/renderers/dom.js']
