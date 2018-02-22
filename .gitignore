@@ -1,6 +1,7 @@
-/node_modules
-/public
-/build
+node_modules/
+public/
+ecosystem.config.js
+build/
 .DS_Store
 *.log
 .vscode
