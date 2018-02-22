@@ -39,11 +39,13 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "jest": "^22.1.1",
     "node-sass": "^4.7.2",
+    "npm-submodule-webpack-plugin": "^0.0.5",
     "react-test-renderer": "^16.2.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1"
   },
   "dependencies": {
+    "MathFacts": "git+ssh://git@github.com:randycollier/MathFacts.git",
     "axios": "^0.17.1",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "4.0.0",
